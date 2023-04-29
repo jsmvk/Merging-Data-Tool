@@ -64,7 +64,6 @@ Sub merge()
         
         With Data_Sheet
             LastRow = .Cells(.Rows.Count, 1).End(xlUp).Row
-            .Rows(LastRow + 1).EntireRow.Delete
             LastRow = .Cells(.Rows.Count, 1).End(xlUp).Row
             LastColumn = .Cells(1, .Columns.Count).End(xlToLeft).Column
             Set Copy_Range = .Cells(2, 1).Resize(LastRow, LastColumn)
