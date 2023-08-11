@@ -24,8 +24,6 @@ Sub info()
             Set selectedCell = Application.InputBox("Select a cell on sheet to merge by", Type:=8)
             If selectedCell Is Nothing Then
                 MsgBox "No cell selected. Try again"
-            Else
-            
             End If
         Else
             MsgBox "Invalid selection. Try again"
