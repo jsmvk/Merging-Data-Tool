@@ -29,8 +29,7 @@ Sub info()
         End If
         
     Loop While anserw = vbNo
-    
-    
+        
 End Sub
 Sub merge()
     
