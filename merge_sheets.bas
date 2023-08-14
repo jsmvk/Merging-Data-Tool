@@ -1,7 +1,6 @@
 Attribute VB_Name = "merge_sheets"
 Option Explicit
 
-Dim i As Integer
 Sub merge_sheets()
 
     info
@@ -44,6 +43,7 @@ Sub merge()
     Dim Copy_Range As Range
     Dim Copy_Headers As Range
     Dim Name As String
+    Dim i As Integer
     
     On Error Resume Next
     
